@@ -1,0 +1,30 @@
+{
+  "name": "@marginly-dev/core",
+  "version": "1.0.2",
+  "description": "A lightweight JavaScript library for ecommerce profit and loss calculations.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "vitest run src/index.test.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "profit-calculator",
+    "profit-loss",
+    "profit-margin",
+    "rto-calculator",
+    "business-calculator"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
