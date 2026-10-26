@@ -1,0 +1,37 @@
+
+name: Feature Request
+description: Suggest a new feature for Marginly
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What problem should this feature solve?
+      placeholder: I need this feature because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the feature you want.
+      placeholder: I would like Marginly to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternative solutions?
+      placeholder: Other approaches you considered...
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add examples or screenshots if useful.
