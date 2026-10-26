@@ -1,4 +1,4 @@
-# Marginly — Ecommerce Profit Calculator
+# Marginly - Ecommerce Profit Calculator
 
 **Calculate your profit before you scale.**
 
